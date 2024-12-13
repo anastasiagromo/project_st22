@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "futurabookc";
+    src: url("../fonts/futurabookc/futurabookc.woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+    @font-face {
+    font-family: "neutral_face";
+    src: url("../fonts/neutral_face/neutral_face.woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+    
