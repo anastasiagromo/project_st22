@@ -29,3 +29,10 @@ clip-path: inset(100%);
 clip: rect(0 0 0 0);
 overflow: hidden;
 }
+button {
+    background: #AC8166; 
+    color: #fff; 
+    border: none; 
+    padding: 1rem 1.5rem; 
+    margin-bottom: 1rem; 
+   }
