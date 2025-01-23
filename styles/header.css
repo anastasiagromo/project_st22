@@ -2,12 +2,30 @@
     background-color:white;
     color:black;
     text-align: left;
-    padding: 28px;
     display: flex;
-}
-.header__logo{
 }
 .header__icons{
-    min-width: 600px;
     display: flex;
+    gap: 10px;
 }
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .menu__link{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+ text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+   
