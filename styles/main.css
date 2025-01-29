@@ -2,3 +2,16 @@
     background-color:white;
     color:black;
 }
+.gift-card{
+    display: flex;
+    gap: 10px;
+   }
+   .gift-card__wrap-right{
+    width: 500px;
+    flex-shrink: 0;
+   }
+   .banner{
+    background-image: url("../image/main_image.png");
+    min-height: 650px;
+    padding: 80px;
+   }
