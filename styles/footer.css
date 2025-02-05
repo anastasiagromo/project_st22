@@ -1,4 +1,27 @@
 .footer{
     background-color:#AC8166;
     color:rgb(255, 255, 255);
+    
 }
+.footer__link a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer__number a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer__email a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer__adress a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer__wrap {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    
+   }

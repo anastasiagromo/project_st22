@@ -2,9 +2,12 @@
     background-color:white;
     color:black;
 }
+.section {
+    padding: 20px 0 100px 0;
+}
 .gift-card{
     display: flex;
-    gap: 10px;
+    gap: 30px;
    }
    .gift-card__wrap-right{
     width: 500px;
@@ -14,4 +17,44 @@
     background-image: url("../image/main_image.png");
     min-height: 650px;
     padding: 80px;
+   }
+  .banner__title{
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+  }
+  .banner__subtitle{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+  }
+   .popular__card{
+    width: 350px;
+    /* padding: 15px; */
+   color: black;
+   }
+   .popular {
+    margin: 0;
+
+
+    flex-wrap: wrap;
+    list-style-type: none;
+   }
+   .popular__wrap {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+   }
+   .category__card__wrap {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+   }
+   .gift-card{
+    background-image: url("../image/background_giftcard.png");
+    min-height: 450px;
+    
+   }
+   .telegram__wrap {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
    }
