@@ -1,7 +1,9 @@
 .footer{
     background-color:#AC8166;
     color:rgb(255, 255, 255);
-    
+    display: flex;
+    text-align: left;
+    padding: 30px;
 }
 .footer__link a {
     color: aliceblue;
@@ -22,6 +24,6 @@
 .footer__wrap {
     display: flex;
     gap: 50px;
-    justify-content: space-between;
+    justify-content: space-around;
     
    }

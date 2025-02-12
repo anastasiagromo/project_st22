@@ -58,3 +58,14 @@
     gap: 20px;
     justify-content: space-between;
    }
+
+ .telegram__animate {
+  position: relative;
+  will-change: top;
+  transition: top 0.2s linear;
+  transform: translateY(-50%);
+  animation: show-header 0.8s ease-out forwards;
+ }
+ /* .telegram__animate:hover {
+  top: 10px;
+ } */

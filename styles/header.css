@@ -15,13 +15,7 @@
     display: flex;
     flex-wrap: wrap;
    }
-   .menu__link{
-    display: block;
-    padding: 10px;
-    margin: 5px;
-    color: rgb(0, 0, 0);
- text-decoration: none;
-}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -29,3 +23,25 @@
     padding-bottom: 20px;
    }
    
+
+   .menu__link{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+ text-decoration: none;
+}
+
+
+.menu__link:hover {
+    color: #d38452; 
+    cursor: pointer;
+ }
+ .menu__link:focus {
+  color: #d38452; 
+  cursor: pointer;
+}
+.menu__link:active {
+  color: #d38452; 
+  cursor: pointer;
+}

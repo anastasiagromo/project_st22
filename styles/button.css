@@ -1,0 +1,21 @@
+button {
+    background-color: #AC8166; 
+    color: #fff; 
+    border: none; 
+    padding: 1rem 1.5rem; 
+    margin-bottom: 1rem; 
+    transition: background-color 0.3s;
+   }
+
+   .interactive-button:hover {
+      background-color: #d38452; 
+      cursor: pointer;
+   }
+   .interactive-button:focus {
+    background-color: #d38452; 
+    cursor: pointer;
+ }
+ .interactive-button:active {
+    background-color: #d38452; 
+    cursor: pointer;
+ }

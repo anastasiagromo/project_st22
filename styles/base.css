@@ -29,15 +29,14 @@ clip-path: inset(100%);
 clip: rect(0 0 0 0);
 overflow: hidden;
 }
-button {
-    background: #AC8166; 
-    color: #fff; 
-    border: none; 
-    padding: 1rem 1.5rem; 
-    margin-bottom: 1rem; 
-   }
+
 .container{
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
    }
+
+h1, h2 {
+font-size: 2em;
+margin: 0.67em 0;
+}

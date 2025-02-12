@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+
+    html,
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .banner__title {
+        font-size: 70px;
+        color: rgb(255, 255, 255);
+    }
+
+    .banner__subtitle {
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+    }
+
+    .gift-card {
+        background-image: url("../image/background_giftcard.png");
+        min-height: 250px;
+
+    }
+
+    .popular__wrap {
+        flex-wrap: wrap;
+    }
+
+    .popular__card {
+        width: 469px;
+    }
+}

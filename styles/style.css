@@ -1,6 +1,7 @@
 /* Подключение шрифтов */
 @import "fonts.css";
 /* Подключение основных стилей */
+@import "animation.css";
 @import "base.css";
 /* Подключение стилей относящихся к header */
 @import "header.css";
@@ -8,3 +9,8 @@
 @import "footer.css";
 /* Подключение стилей относящихся к main */
 @import "main.css";
+
+
+@import "button.css";
+/* Подключение стилей отвечающих за адаптив */
+@import "adaptability.css";
