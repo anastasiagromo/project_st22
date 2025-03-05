@@ -18,3 +18,46 @@ document.addEventListener("DOMContentLoaded", () => {
 4. Конец
 Блок-схема: /image/blockschema.png
    */
+
+ document.addEventListener("DOMContentLoaded", () => {
+    // 2. Получаем кнопку
+    const buttons = document.querySelectorAll('.popular__button'); 
+    console.log(buttons.length);
+    if (!buttons.length) return; // Если кнопки нет, ничего не делаем
+
+   
+
+
+
+    // 3. Навешиваем слушатель событий на клик
+
+    // Метод массива forEach() (вместо цикла for) позволяет применить колбэк-функцию ко всем элементам массива. 
+    // Можно использовать вместо классического цикла for. 
+    // В отличие от него forEach() выглядит более читабельным и понятным.
+buttons.forEach( (button) => {
+    console.log("button");
+    let isActive = false; // Состояние кнопки
+    button.addEventListener('click', (e) => {
+        // 3.1 Смотрим, нажата ли кнопка
+        if (isActive) {
+            // 3.1.1.1 Кнопка уже нажата: смена цвета и текста в исходное положение
+            e.target.style.backgroundColor = "#d38452"; // Возвращаем стандартный цвет
+            e.target.textContent = "SHOP NOW"; // Исходный текст
+            console.log("SHOP NOW");
+        } else {
+            // 3.1.1.2 Кнопка не нажата: смена цвета и текста
+            e.target.style.backgroundColor = "#ffd1ad"; // Новый цвет
+            e.target.textContent = "IN CART"; // Новый текст
+            console.log("IN CART");
+        }
+
+        // Инвертируем состояние кнопки
+        isActive = !isActive;
+    });
+}
+
+);
+
+})
+
+
