@@ -69,3 +69,46 @@
  /* .telegram__animate:hover {
   top: 10px;
  } */
+
+ .scroll-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #AC8166;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.scroll-up--show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popular__card2{
+  width: 350px;
+  /* padding: 15px; */
+ color: black;
+ }
+ .popular {
+  margin: 0;
+
+
+  flex-wrap: wrap;
+  list-style-type: none;
+ }
+ .popular__wrap2 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+ }

@@ -41,7 +41,7 @@ buttons.forEach( (button) => {
         // 3.1 Смотрим, нажата ли кнопка
         if (isActive) {
             // 3.1.1.1 Кнопка уже нажата: смена цвета и текста в исходное положение
-            e.target.style.backgroundColor = "#d38452"; // Возвращаем стандартный цвет
+            e.target.style.backgroundColor = "#AC8166"; // Возвращаем стандартный цвет
             e.target.textContent = "SHOP NOW"; // Исходный текст
             console.log("SHOP NOW");
         } else {
