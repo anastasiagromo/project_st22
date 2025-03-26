@@ -1,0 +1,28 @@
+[
+  {
+        "level": "EARINGS",
+        "icon": "image/Product_categories_earings.png",
+        "button": "SHOP NOW"
+    },
+ {
+        "level": "NACKLACE",
+        "icon": "image/Product_categories_Nacklace.png",
+        "button": "SHOP NOW"
+    },
+   {
+        "level": "RINGS",
+        "icon": "image/Product_categories_rings.png",
+        "button": "SHOP NOW"
+    },
+  {
+        "level": "BRACLETS",
+        "icon": "image/Product_categories_braclets.png",
+        "button": "SHOP NOW"
+    },
+ {
+        "level": "SALES",
+        "icon": "image/Product_categories_sales.png",
+        "button": "SHOP NOW"
+    }
+
+]
