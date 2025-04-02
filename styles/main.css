@@ -145,3 +145,37 @@
 
   animation: spin 1s linear infinite;
 }
+
+
+.swiper {
+  overflow: visible;
+}
+
+.swiper-sec {
+  padding: 0 40px;
+  overflow: hidden;
+}
+
+
+.swiper-slide {
+  box-shadow: none;
+  /* border: 1px solid #ebeaea; */
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: #d38452;
+}
+
+.swiper-pagination-bullet-active {
+  background: #d38452;
+}
+
+.swiper-button-prev {
+  left: -40px;
+}
+
+.swiper-button-next {
+  right: -40px;
+}
+
+
