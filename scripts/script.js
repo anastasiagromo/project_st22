@@ -186,3 +186,27 @@ if (cardsContainer && false) {
              console.error('Ошибка при загрузке данных:', error);
          });
  }
+
+   // Карусель (слайдер)
+   const slider = document.querySelector('.swiper');
+
+   if (slider) {
+       const swiper = new Swiper(slider, {
+           // Дополнительные параметры
+           slidesPerView: 4, // Количество слайдов на экране
+           spaceBetween: 40, // Расстояние между слайдами
+           loop: true,  // Зацикливание слайдов
+
+           // Пагинация
+           pagination: {
+               el: '.swiper-pagination',
+           },
+
+           // Навигационные стрелки
+           navigation: {
+               nextEl: '.swiper-button-next',
+               prevEl: '.swiper-button-prev',
+           },
+       });
+   }
+
